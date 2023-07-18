@@ -1,14 +1,35 @@
 body {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #ededed86
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.content {
+  display: flex;
+  position: relative;
+  z-index: 25;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headText {
+color: #dc9852
+}
+.backgroundImage {
+  z-index: 10;
+  opacity: 50%;
+  height: 500px;
+  width: 800px;
+  background: url(./assets/img/fox.png) no-repeat center center fixed;
 }

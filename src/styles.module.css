@@ -23,31 +23,34 @@ svg {
   width: 180px;
   height: 60px;
   background: transparent;
-  border: 1px solid #91C9FF;
+  border: 1px solid #efb560;
   outline: none;
   transition: 1s ease-in-out;
 }
 .primary:hover {
   transition: 1s ease-in-out;
-  background: #4F95DA;
+  background: #efb560;
+  color: #fff;
 }
 .primary:hover svg {
   stroke-dashoffset: -480;
 }
 
-.dashed {
+.secondary {
   width: 180px;
   height: 60px;
   background: transparent;
-  border: 1px dashed #4fda5b;
+  border: 1px solid #dc9852;
   outline: none;
   transition: 1s ease-in-out;
 }
-.dashed:hover {
+.secondary:hover {
   transition: 1s ease-in-out;
-  background: #4fda5b;
+  background: #dc9852;
+  color: #fff;
+
 }
-.dashed:hover svg {
+.secondary:hover svg {
   stroke-dashoffset: -480;
 }
 
@@ -57,30 +60,34 @@ svg {
   height: 60px;
   cursor: pointer;
   background: transparent;
-  border: 1px  #da4f4f;
+  border: 1px  #b7b39f;
   outline: none;
   transition: 1s ease-in-out;
 }
 .link:hover {
   transition: 1s ease-in-out;
-  background: #da4f4f;
+  background: #b7b39f;
+  color: #fff;
+
 }
 .link:hover svg {
   stroke-dashoffset: -480;
 }
 
-.secondary {
+.dashed {
   width: 180px;
   height: 60px;
   background: transparent;
-  border: 1px solid #ff9900;
+  border: 1px dashed #474d4f;
   outline: none;
   transition: 1s ease-in-out;
 }
-.secondary:hover {
+.dashed:hover {
   transition: 1s ease-in-out;
-  background: #ff9900;
+  background: #474d4f;
+  color: #fff;
+
 }
-.secondary:hover svg {
+.dashed:hover svg {
   stroke-dashoffset: -480;
 }
