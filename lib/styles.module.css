@@ -17,7 +17,6 @@ svg {
     stroke-dashoffset: 150;
     transition: 1s ease-in-out;
 }
-
 .primary {
     width: 180px;
     height: 60px;
@@ -34,7 +33,6 @@ svg {
 .primary:hover svg {
     stroke-dashoffset: -480;
 }
-
 .secondary {
     width: 180px;
     height: 60px;
@@ -52,7 +50,6 @@ svg {
 .secondary:hover svg {
     stroke-dashoffset: -480;
 }
-
 .link {
     text-decoration: underline;
     width: 180px;
@@ -67,12 +64,10 @@ svg {
     transition: 1s ease-in-out;
     background: #b7b39f;
     color: #fff;
-
 }
 .link:hover svg {
     stroke-dashoffset: -480;
 }
-
 .dashed {
     width: 180px;
     height: 60px;
@@ -85,7 +80,6 @@ svg {
     transition: 1s ease-in-out;
     background: #474d4f;
     color: #fff;
-
 }
 .dashed:hover svg {
     stroke-dashoffset: -480;

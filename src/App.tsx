@@ -1,12 +1,12 @@
-import { Button } from 'xfoxui';
 import './index.css';
+import { Button } from '../lib/main.tsx';
 
 const App = () => {
   return (
     <div className="container">
       <div className="backgroundImage" />
       <div className="content">
-        <h1 className="headText">xFOXUI Buttons</h1>
+        <h1 className="headText">xFOXUI - Buttons</h1>
         <Button
           type="primary"
           onClick={() => alert('https://github.com/mogretici/xfoxui')}

@@ -1,6 +1,4 @@
-# xfoxui
-
-> xFoxUI is a React UI library
+# xFoxUI ReactJS / NextJS UI Library
 
 [![NPM](https://img.shields.io/npm/v/xfoxui.svg)](https://www.npmjs.com/package/xfoxui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 <div><img src="/public/buttons.gif" alt="xfoxui-buttons" width='600'></div>
@@ -44,7 +42,7 @@ const App = () => {
 export default App;
 ```
 ## Update Notes
-- ### Version 2.0.0
+- ### Version 2.0.3
   - React18 upgrade
   - Added Typescript support
 
