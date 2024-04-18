@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 .storybook
 /src/stories/
+
+*storybook.log
