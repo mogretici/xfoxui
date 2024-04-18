@@ -5,7 +5,10 @@
   "description": "xFoxUI is a ReactUI library",
   "author": "mogretici",
   "license": "MIT",
-  "repository": "mogretici/xfoxui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogretici/xfoxui.git"
+  },
   "type": "module",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
