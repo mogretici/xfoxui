@@ -1,7 +1,6 @@
-import React from 'react'
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 
-export const Button = (props) => {
+export const Button = (props: any) => {
   return (
     <div className={styles.container}>
       <button
@@ -11,5 +10,5 @@ export const Button = (props) => {
         {props.text}
       </button>
     </div>
-  )
-}
+  );
+};

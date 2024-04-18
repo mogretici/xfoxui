@@ -1,41 +1,39 @@
-import React from 'react'
-
-import { Button } from 'foxui'
-import 'foxui/dist/index.css'
+import { Button } from '../lib/main.tsx';
+import './index.css';
 
 const App = () => {
   return (
-    <div className='container'>
-      <div className='backgroundImage'></div>
-      <div className='content'>
-        <h1 className='headText'>xFOXUI Buttons</h1>
+    <div className="container">
+      <div className="backgroundImage"></div>
+      <div className="content">
+        <h1 className="headText">xFOXUI Buttons</h1>
         <Button
-          type='primary'
+          type="primary"
           onClick={() => alert('https://github.com/mogretici/xfoxui')}
-          text='PRIMARY'
+          text="PRIMARY"
         />
         <br />
         <Button
-          type='secondary'
+          type="secondary"
           onClick={() => alert('https://github.com/mogretici/xfoxui')}
-          text='SECONDARY'
+          text="SECONDARY"
         />
         <br />
         <Button
-          type='dashed'
+          type="dashed"
           onClick={() => alert('https://github.com/mogretici/xfoxui')}
-          text='DASHED'
+          text="DASHED"
         />
         <br />
         <Button
-          type='link'
+          type="link"
           onClick={() => alert('https://github.com/mogretici/xfoxui')}
-          text='LINK'
+          text="LINK"
         />
         <br />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+.test {
+    margin: 2em;
+    padding: 0.5em;
+    border: 2px solid #000;
+    font-size: 2em;
+    text-align: center;
+}
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.primary {
+    width: 180px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid #efb560;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+.primary:hover {
+    transition: 1s ease-in-out;
+    background: #efb560;
+    color: #fff;
+}
+.primary:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.secondary {
+    width: 180px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid #dc9852;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+.secondary:hover {
+    transition: 1s ease-in-out;
+    background: #dc9852;
+    color: #fff;
+
+}
+.secondary:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.link {
+    text-decoration: underline;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px  #b7b39f;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+.link:hover {
+    transition: 1s ease-in-out;
+    background: #b7b39f;
+    color: #fff;
+
+}
+.link:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.dashed {
+    width: 180px;
+    height: 60px;
+    background: transparent;
+    border: 1px dashed #474d4f;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+.dashed:hover {
+    transition: 1s ease-in-out;
+    background: #474d4f;
+    color: #fff;
+
+}
+.dashed:hover svg {
+    stroke-dashoffset: -480;
+}
