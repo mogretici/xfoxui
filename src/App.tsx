@@ -1,4 +1,4 @@
-import { Button } from '../lib/main.tsx';
+import { Button } from 'xfoxui';
 import './index.css';
 
 const App = () => {

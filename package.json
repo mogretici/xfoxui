@@ -59,5 +59,8 @@
   },
   "sideEffects": [
     "**/*.css"
-  ]
+  ],
+  "dependencies": {
+    "xfoxui": "^2.0.0"
+  }
 }
