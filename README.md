@@ -1,6 +1,6 @@
 # xfoxui
 
-> xFoxUI is a ReactUI library
+> xFoxUI is a React UI library
 
 [![NPM](https://img.shields.io/npm/v/xfoxui.svg)](https://www.npmjs.com/package/xfoxui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 <div><img src="/public/buttons.gif" alt="xfoxui-buttons" width='600'></div>
