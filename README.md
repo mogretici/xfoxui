@@ -41,11 +41,13 @@ const App = () => {
     </>
   );
 };
+export default App;
 ```
 ## Update Notes
 - ### Version 2.0.0
   - React18 upgrade
   - Added Typescript support
+
 
 ## License
 

@@ -4,7 +4,7 @@ import './index.css';
 const App = () => {
   return (
     <div className="container">
-      <div className="backgroundImage"></div>
+      <div className="backgroundImage" />
       <div className="content">
         <h1 className="headText">xFOXUI Buttons</h1>
         <Button
