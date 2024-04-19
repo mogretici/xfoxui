@@ -57,7 +57,7 @@ export default App;
 
 
 ## Update Notes
-- ### v2.0.4 (19.04.2024)
+- ### v2.0.5 (19.04.2024)
   - More customizable buttons
   - Some bug fixes
 - ### v2.0.3 (18.04.2024)
