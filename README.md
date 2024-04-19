@@ -20,29 +20,47 @@ import {Button} from 'xfoxui'
 const App = () => {
   return (
     <>
-        <Button
-          type="primary"
-          text="PRIMARY"
-        />
-        <Button
-          type="secondary"
-          text="SECONDARY"
-        />
-        <Button
-          type="dashed"
-          text="DASHED"
-        />
-        <Button
-          type="link"
-          text="LINK"
-        />
+      <Button text="XFOXUI" />
+      <Button
+              variant="dashed"
+              text="COOL"
+              color={'#c0a0a0'}
+              hoverBackgroundColor={'#c0a0a0'}
+      />
+      <Button
+              variant="link"
+              text="BUTTONS"
+              color={'#55a5e7'}
+              hoverColor={'#fff'}
+              hoverBackgroundColor={'blue'}
+      />
     </>
   );
 };
 export default App;
 ```
+
+## Available Components
+### Button
+
+| **Props**             | **Type**             |
+|-----------------------|----------------------|
+| **text** (required)   | _String_             |
+| color?                | _String_             |
+| fontSize?             | _String_             |
+| hoverColor?           | _String_             |
+| backgroundColor?      | _String_             |
+| hoverBackgroundColor? | _String_             |
+| variant?              | _'dashed' \| 'link'_ |
+| width?                | _String_             |
+| height?               | _String_             |
+
+
 ## Update Notes
-- ### Version 2.0.3
+- ### v2.0.4 (19.04.2024)
+  - More customizable buttons
+  - Some bug fixes
+- ### v2.0.3 (18.04.2024)
   - React18 upgrade
   - Added Typescript support
 

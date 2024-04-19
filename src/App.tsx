@@ -1,36 +1,27 @@
 import './index.css';
-import { Button } from '../lib/main.tsx';
+import { Button } from '../lib';
 
 const App = () => {
   return (
     <div className="container">
       <div className="backgroundImage" />
+      <h1 className="headText">- xFOXUI -</h1>
       <div className="content">
-        <h1 className="headText">xFOXUI - Buttons</h1>
+        <h3 className="headText">Button</h3>
+        <Button text="XFOXUI" />
         <Button
-          type="primary"
-          onClick={() => alert('https://github.com/mogretici/xfoxui')}
-          text="PRIMARY"
+          variant="dashed"
+          text="COOL"
+          color={'#c0a0a0'}
+          hoverBackgroundColor={'#c0a0a0'}
         />
-        <br />
         <Button
-          type="secondary"
-          onClick={() => alert('https://github.com/mogretici/xfoxui')}
-          text="SECONDARY"
+          variant="link"
+          text="BUTTONS"
+          color={'#55a5e7'}
+          hoverColor={'#fff'}
+          hoverBackgroundColor={'blue'}
         />
-        <br />
-        <Button
-          type="dashed"
-          onClick={() => alert('https://github.com/mogretici/xfoxui')}
-          text="DASHED"
-        />
-        <br />
-        <Button
-          type="link"
-          onClick={() => alert('https://github.com/mogretici/xfoxui')}
-          text="LINK"
-        />
-        <br />
       </div>
     </div>
   );

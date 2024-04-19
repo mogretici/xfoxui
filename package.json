@@ -1,7 +1,7 @@
 {
   "name": "xfoxui",
   "private": false,
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "xFoxUI ReactJS / NextJS UI Library",
   "author": "mogretici",
   "homepage": "https://github.com/mogretici/xfoxui",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/mogretici/xfoxui.git"
   },
-  "keywords":  [
+  "keywords": [
     "xfox",
     "react ui library",
     "xfoxui",
@@ -69,5 +69,8 @@
   },
   "sideEffects": [
     "**/*.css"
-  ]
+  ],
+  "dependencies": {
+    "styled-components": "^6.1.8"
+  }
 }
