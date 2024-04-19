@@ -1,5 +1,5 @@
 import './index.css';
-import { Button } from '../lib';
+import { Button } from '../lib/main.tsx';
 
 const App = () => {
   return (
